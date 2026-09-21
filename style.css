@@ -119,6 +119,7 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
+    gap: 8px;
 }
 
 .info-box {
@@ -128,4 +129,39 @@ button {
     min-height: 150px;
     border: 3px solid #3882F6;
     border-radius: 8px;
+}
+
+.quote-sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    width: 100%;
+    padding-inline: 300px;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    min-width: 700px;
+    max-width: 1500px;
+    margin-block: 100px;
+    gap: 8px;
+}
+
+.quote-text {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 900;
 }
